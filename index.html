@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Blog — Janaka Premathilaka</title>
+  <meta name="description" content="Technical notes on Java, Spring Boot, RAG, OpenAI SDK, and agentic architectures." />
+  <link rel="canonical" href="https://blog.janaka.me/" />
+  <meta property="og:title" content="Blog — Janaka Premathilaka" />
+  <meta property="og:description" content="Java, Spring, RAG, Agentic AI — concise walkthroughs with diagrams and code." />
+  <meta property="og:url" content="https://blog.janaka.me/" />
+  <style>
+    body{margin:0;background:#0b1016;color:#e8eef7;font:16px/1.6 system-ui}
+    a{color:#00b3ff} .wrap{max-width:900px;margin:0 auto;padding:24px}
+    .nav{display:flex;gap:12px;justify-content:space-between;border-bottom:1px solid #2a3a50;padding:12px 0}
+    .post{padding:16px;border:1px solid #2a3a50;border-radius:14px;background:#121823;margin:14px 0}
+    .meta{color:#9fb1c5;font-size:14px}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <nav class="nav">
+      <div><a href="https://janaka.me">← Home</a></div>
+      <div>
+        <a href="https://labs.janaka.me">Labs</a> ·
+        <a href="https://ai.janaka.me">AI/Agents</a> ·
+        <a href="https://cv.janaka.me">CV</a>
+      </div>
+    </nav>
+
+    <h1>Blog</h1>
+    <p class="meta">Clear, hands-on articles with diagrams and code.</p>
+
+    <article class="post">
+      <h2><a href="./posts/mcp-agent-integration.html">MCP for Agent Integrations — A Practical Guide</a></h2>
+      <p class="meta">Oct 2025 · Agents, MCP, OpenAI SDK</p>
+      <p>What MCP is, why it matters, and a step-by-step example wiring an agent to external tools safely.</p>
+    </article>
+
+    <article class="post">
+      <h2><a href="./posts/rag-faiss-patterns.html">RAG with FAISS: Chunking, MMR, and Re-ranking</a></h2>
+      <p class="meta">Sep 2025 · RAG, Retrieval</p>
+      <p>A production-ready retrieval pipeline with parameters explained and code you can copy.</p>
+    </article>
+
+    <article class="post">
+      <h2><a href="./posts/spring-kafka-deadletter.html">Spring Boot + Kafka: Dead Letter Strategy That Scales</a></h2>
+      <p class="meta">Aug 2025 · Spring, Kafka</p>
+      <p>Designing fault-tolerant consumers and observability to keep business calm during incidents.</p>
+    </article>
+
+    <footer style="margin-top:24px;color:#9fb1c5">© <span id="y"></span> • <a href="https://janaka.me">janaka.me</a></footer>
+  </div>
+  <script>document.getElementById('y').textContent=new Date().getFullYear();</script>
+</body>
+</html>
